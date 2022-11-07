@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     --lightGrey: #eee;
     --medGrey: #353535; 
     --darkGrey: linear-gradient(21deg, rgba(75,75,75,1) 0%, rgba(47,47,47,1) 81%);
+    --darkGreyGradient: linear-gradient(270deg, rgba(87,87,87,1) 0%, rgba(46,45,45,1) 90%);
     --fontSuperBig: 2.5rem;
     --fontBig: 1.5rem;
     --fontMed: 1.2rem;

@@ -12,7 +12,6 @@ import NoImage from "../../images/no_image.jpg";
 import { Wrapper, Content, Text } from "./MovieInfo.styles";
 
 const MovieInfo = ({ movie }) => {
-  console.log(movie);
   return (
     <Wrapper backdrop={movie.backdrop_path} poster={movie.poster_path}>
       <Content>
